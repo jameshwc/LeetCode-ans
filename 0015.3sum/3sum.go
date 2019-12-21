@@ -4,8 +4,10 @@ import (
 	"sort"
 )
 
-// Runtime: 1652 ms, faster than 9.37% of Go online submissions for 3Sum.
-// Memory Usage: 272.9 MB, less than 41.67% of Go online submissions for 3Sum.
+/*
+Runtime: 1480 ms, faster than 10.62% of Go online submissions for 3Sum.
+Memory Usage: 205.5 MB, less than 58.33% of Go online submissions for 3Sum.
+*/
 type tuple struct {
 	firstNum,
 	secondNum,
@@ -17,9 +19,6 @@ func threeSum(nums []int) [][]int {
 	var ans [][]int
 	var check = make(map[tuple](bool))
 	l := len(nums)
-	if l < 3 {
-		return nil
-	}
 	for i := 0; i < l; i++ {
 		var index = make(map[int](int))
 		target := -nums[i]
