@@ -1,3 +1,5 @@
 *.mod
 *.sum
 *.exe
+package.json
+config.yaml
