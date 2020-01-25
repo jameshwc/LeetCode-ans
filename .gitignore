@@ -2,4 +2,7 @@
 *.sum
 *.exe
 package.json
-config.yaml
+config.toml
+trend.csv
+leetcode.json
+trend.csv
