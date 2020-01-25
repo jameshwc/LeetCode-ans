@@ -14,8 +14,8 @@ func lengthOfLongestSubstring(s string) int {
 		}
 		idx[v] = i + 1
 	}
-	if len(s)-left > ans {
-		return len(s) - left
+	if t := len(s) - left; t > ans {
+		return t
 	}
 	return ans
 }
