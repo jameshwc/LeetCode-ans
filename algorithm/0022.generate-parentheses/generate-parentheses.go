@@ -1,41 +1,26 @@
 package main
 
-func isValid(s string) bool {
-	stack := make([]rune, len(s))
-	top := 0
-	code := map[rune]rune{')': '(', '}': '{', ']': '['}
-	for _, r := range s {
-		switch r {
-		case '[', '{', '(':
-			stack[top] = r
-			top++
-		case ']', '}', ')':
-			if top < 1 || code[r] != stack[top-1] {
-				return false
-			}
-			top--
-		}
+func recurGenParenthesis(left int, right int, s string, L int, ans *[]string) {
+	if right > left {
+		return
 	}
-	return top == 0
-}
+	if left+right != L {
+		if left > right {
+			recurGenParenthesis(left, right+1, s+")", L, ans)
+		}
+		recurGenParenthesis(left+1, right, s+"(", L, ans)
+	} else if left == right {
+		*ans = append(*ans, s)
+	}
 
-func recurGenParenthesis(L int, s string, ans *[]string) {
-	if len(s) == L {
-		if isValid(s) {
-			*ans = append(*ans, s)
-		}
-	} else {
-		recurGenParenthesis(L, s+"(", ans)
-		recurGenParenthesis(L, s+")", ans)
-	}
 }
 func generateParenthesis(n int) []string {
 	var ans []string
-	recurGenParenthesis(n*2, "", &ans)
+	recurGenParenthesis(0, 0, "", 2*n, &ans)
 	return ans
 }
 
 func main() {
 	// fmt.Println(generateParenthesis(10))
-	generateParenthesis(20)
+	generateParenthesis(3)
 }
