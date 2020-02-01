@@ -15,13 +15,16 @@ func preProcess(s string) string {
 	ss := []string(strings.Split(s, ""))
 	return "#" + strings.Join(ss, "#") + "#"
 }
+
+// Manacher's algorithm, solved in linear time complexity.
+// details in https://segmentfault.com/a/1190000003914228
 func manacher(s string) string {
 	t := preProcess(s)
 	pos, maxLen, maxRight, n := 0, 0, 0, len(t)
 	P := make([]int, n)
 	for i := 0; i < n; i++ {
 		if i < maxRight {
-			P[i] = min(P[2*pos-i], maxRight-i)
+			P[i] = min(P[pos-(i-pos)], maxRight-i)
 		} else {
 			P[i] = 1
 		}
