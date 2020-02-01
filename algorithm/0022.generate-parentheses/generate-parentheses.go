@@ -1,22 +1,20 @@
 package main
 
 func recurGenParenthesis(left int, right int, s string, L int, ans *[]string) {
-	if right > left {
+	if left+right == 2*L {
+		*ans = append(*ans, s)
 		return
 	}
-	if left+right != L {
-		if left > right {
-			recurGenParenthesis(left, right+1, s+")", L, ans)
-		}
+	if left < L {
 		recurGenParenthesis(left+1, right, s+"(", L, ans)
-	} else if left == right {
-		*ans = append(*ans, s)
 	}
-
+	if left > right {
+		recurGenParenthesis(left, right+1, s+")", L, ans)
+	}
 }
 func generateParenthesis(n int) []string {
 	var ans []string
-	recurGenParenthesis(0, 0, "", 2*n, &ans)
+	recurGenParenthesis(0, 0, "", n, &ans)
 	return ans
 }
 
