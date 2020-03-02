@@ -16,8 +16,8 @@ func nextPermutation(nums []int) {
 			j--
 		}
 		nums[i], nums[j] = nums[j], nums[i]
-		reverse(nums, i+1, n)
 	}
+	reverse(nums, i+1, n)
 }
 
 func main() {
