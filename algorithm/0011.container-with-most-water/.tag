@@ -1,0 +1,1 @@
+golang,medium,linear,two-pointer,brute-force,not-my-own-work
