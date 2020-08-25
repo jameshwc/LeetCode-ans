@@ -1,0 +1,1 @@
+golang,easy,linked list,reverse,fast-slow pointer,two-pointer,worth-revisit
