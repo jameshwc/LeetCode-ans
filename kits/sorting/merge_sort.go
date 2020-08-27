@@ -1,7 +1,5 @@
 package sorting
 
-import "fmt"
-
 func merge(nums []int) {
 	n := len(nums)
 	if n <= 1 {
@@ -41,12 +39,6 @@ func merge(nums []int) {
 		nums[i] = sortNum[i]
 	}
 }
-func mergeSort(nums []int) {
+func MergeSort(nums []int) {
 	merge(nums)
-}
-
-func main() {
-	nums := []int{1, 7, 2, 3, 5, 10, 8, 9, 12, 3, 2, 4}
-	mergeSort(nums)
-	fmt.Println(nums)
 }

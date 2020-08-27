@@ -1,8 +1,6 @@
 package sorting
 
-import "fmt"
-
-func quickSort(nums []int, left, right int) {
+func QuickSort(nums []int, left, right int) {
 	if right < left {
 		return
 	}
@@ -15,12 +13,6 @@ func quickSort(nums []int, left, right int) {
 		}
 	}
 	nums[right], nums[cur] = nums[cur], nums[right]
-	quickSort(nums, left, cur-1)
-	quickSort(nums, cur+1, right)
-}
-
-func main() {
-	nums := []int{1, 7, 2, 3, 5, 10, 8, 9, 12, 3, 2, 4}
-	quickSort(nums, 0, len(nums)-1)
-	fmt.Println(nums)
+	QuickSort(nums, left, cur-1)
+	QuickSort(nums, cur+1, right)
 }
