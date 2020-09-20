@@ -7,12 +7,16 @@
  * }
  */
 func flatten(root *TreeNode) {
-	var dfs func(*TreeNode) *TreeNode
-	dfs = func(r *TreeNode) *TreeNode {
-		if r == nil {
-			return
-		}
-		temp := r.Right
-		r.Right = dfs(r.Left)
+	if root == nil {
+		return
 	}
+	flatten(root.Left)
+	flatten(root.Right)
+	temp := root.Right
+	root.Right = root.Left
+	root.Left = nil
+	for root.Right != nil {
+		root = root.Right
+	}
+	root.Right = temp
 }
