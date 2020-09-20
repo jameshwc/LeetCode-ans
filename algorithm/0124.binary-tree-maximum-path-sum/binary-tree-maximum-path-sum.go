@@ -14,7 +14,7 @@ func maxPathSum(root *TreeNode) int {
 		}
 		return j
 	}
-	ans := 0
+	ans := -(1 << 31)
 	dfs = func(r *TreeNode) int {
 		if r == nil {
 			return 0
@@ -24,4 +24,6 @@ func maxPathSum(root *TreeNode) int {
 		ans = max(left+right+r.Val, ans)
 		return max(left, right) + r.Val
 	}
+	dfs(root)
+	return ans
 }
