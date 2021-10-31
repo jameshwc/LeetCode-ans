@@ -7,133 +7,158 @@ Will support python, java, etc. in the future.
 
 |Problem No.|Title|Acceptance|Difficulty|Language|
 |:-:|:-:|:-: | :-: | :-: |
-|0001|Two Sum|45.93%|Easy|Golang
-|0002|Add Two Numbers|34.69%|Medium|Golang
-|0003|Longest Substring Without Repeating Characters|30.93%|Medium|Golang
-|0004|Median of Two Sorted Arrays|30.47%|Hard|Golang
-|0005|Longest Palindromic Substring|29.97%|Medium|Golang
-|0007|Reverse Integer|25.83%|Easy|Golang
-|0011|Container With Most Water|51.87%|Medium|Golang
-|0013|Roman to Integer|56.21%|Easy|Golang
-|0014|Longest Common Prefix|35.85%|Easy|Golang
-|0015|3Sum|27.50%|Medium|Golang
-|0017|Letter Combinations of a Phone Number|48.14%|Medium|Golang
-|0019|Remove Nth Node From End of List|35.47%|Medium|Golang
-|0020|Valid Parentheses|39.41%|Easy|Golang
-|0021|Merge Two Sorted Lists|54.92%|Easy|Golang
-|0022|Generate Parentheses|64.36%|Medium|Golang
-|0031|Next Permutation|33.08%|Medium|Golang
-|0033|Search in Rotated Sorted Array|35.37%|Medium|Golang
-|0034|Find First and Last Position of Element in Sorted Array|36.83%|Medium|Golang
-|0036|Valid Sudoku|49.84%|Medium|Golang
-|0039|Combination Sum|58.28%|Medium|Golang
-|0041|First Missing Positive|33.18%|Hard|Golang
-|0046|Permutations|65.43%|Medium|Golang
-|0049|Group Anagrams|58.37%|Medium|Golang
-|0053|Maximum Subarray|47.31%|Easy|Golang
-|0054|Spiral Matrix|35.02%|Medium|Golang
-|0055|Jump Game|34.95%|Medium|Golang
-|0056|Merge Intervals|40.31%|Medium|Golang
-|0062|Unique Paths|55.24%|Medium|Golang
-|0064|Minimum Path Sum|55.55%|Medium|Golang
-|0070|Climbing Stairs|48.34%|Easy|Golang
-|0072|Edit Distance|46.02%|Hard|Golang
-|0074|Search a 2D Matrix|37.09%|Medium|Golang
-|0075|Sort Colors|48.55%|Medium|Golang
-|0078|Subsets|63.87%|Medium|Golang
-|0079|Word Search|36.33%|Medium|Golang
-|0091|Decode Ways|25.62%|Medium|Golang
-|0094|Binary Tree Inorder Traversal|64.95%|Medium|Golang
-|0096|Unique Binary Search Trees|53.87%|Medium|Golang
-|0098|Validate Binary Search Tree|28.21%|Medium|Golang
-|0101|Symmetric Tree|47.65%|Easy|Golang
-|0102|Binary Tree Level Order Traversal|55.83%|Medium|Golang
-|0104|Maximum Depth of Binary Tree|67.36%|Easy|Golang
-|0105|Construct Binary Tree from Preorder and Inorder Traversal|50.64%|Medium|Golang
-|0111|Minimum Depth of Binary Tree|38.93%|Easy|Golang
-|0114|Flatten Binary Tree to Linked List|50.93%|Medium|Golang
-|0116|Populating Next Right Pointers in Each Node|47.85%|Medium|Golang
-|0121|Best Time to Buy and Sell Stock|51.14%|Easy|Golang
-|0124|Binary Tree Maximum Path Sum|35.03%|Hard|Golang
-|0128|Longest Consecutive Sequence|45.79%|Hard|Golang
-|0130|Surrounded Regions|28.90%|Medium|Golang
-|0136|Single Number|66.18%|Easy|Golang
-|0139|Word Break|41.14%|Medium|Golang
-|0141|Linked List Cycle|41.95%|Easy|Golang
-|0142|Linked List Cycle II|38.97%|Medium|Golang
-|0148|Sort List|45.36%|Medium|Golang
-|0150|Evaluate Reverse Polish Notation|37.26%|Medium|Golang
-|0152|Maximum Product Subarray|32.47%|Medium|Golang
-|0155|Min Stack|45.64%|Easy|Golang
-|0160|Intersection of Two Linked Lists|42.16%|Easy|Golang
-|0162|Find Peak Element|43.62%|Medium|Golang
-|0169|Majority Element|59.59%|Easy|Golang
-|0187|Repeated DNA Sequences|41.00%|Medium|Golang
-|0189|Rotate Array|36.16%|Medium|Golang
-|0190|Reverse Bits|41.18%|Easy|Golang
-|0191|Number of 1 Bits|51.44%|Easy|Golang
-|0198|House Robber|42.59%|Easy|Golang
-|0200|Number of Islands|48.09%|Medium|Golang
-|0206|Reverse Linked List|64.27%|Easy|Golang
-|0207|Course Schedule|43.95%|Medium|Golang
-|0208|Implement Trie (Prefix Tree)|51.06%|Medium|Golang
-|0210|Course Schedule II|41.88%|Medium|Golang
-|0212|Word Search II|36.07%|Hard|Golang
-|0213|House Robber II|37.29%|Medium|Golang
-|0215|Kth Largest Element in an Array|57.03%|Medium|Golang
-|0217|Contains Duplicate|56.38%|Easy|Golang
-|0218|The Skyline Problem|35.81%|Hard|Golang
-|0219|Contains Duplicate II|38.33%|Easy|Golang
-|0221|Maximal Square|38.25%|Medium|Golang
-|0226|Invert Binary Tree|66.22%|Easy|Golang
-|0230|Kth Smallest Element in a BST|61.73%|Medium|Golang
-|0234|Palindrome Linked List|39.97%|Easy|Golang
-|0236|Lowest Common Ancestor of a Binary Tree|47.55%|Medium|Golang
-|0238|Product of Array Except Self|61.00%|Medium|Golang
-|0239|Sliding Window Maximum|44.33%|Hard|Golang
-|0240|Search a 2D Matrix II|43.68%|Medium|Golang
-|0279|Perfect Squares|48.31%|Medium|Golang
-|0283|Move Zeroes|58.30%|Easy|Golang
-|0287|Find the Duplicate Number|56.76%|Medium|Golang
-|0295|Find Median from Data Stream|45.92%|Hard|Golang
-|0297|Serialize and Deserialize Binary Tree|48.95%|Hard|Golang
-|0300|Longest Increasing Subsequence|43.16%|Medium|Golang
-|0309|Best Time to Buy and Sell Stock with Cooldown|47.90%|Medium|Golang
-|0322|Coin Change|36.59%|Medium|Golang
-|0326|Power of Three|42.01%|Easy|Golang
-|0334|Increasing Triplet Subsequence|39.87%|Medium|Golang
-|0337|House Robber III|51.56%|Medium|Golang
-|0338|Counting Bits|70.06%|Medium|Golang
-|0347|Top K Frequent Elements|61.96%|Medium|Golang
-|0371|Sum of Two Integers|50.61%|Medium|Golang
-|0378|Kth Smallest Element in a Sorted Matrix|55.53%|Medium|Golang
-|0387|First Unique Character in a String|53.65%|Easy|Golang
-|0394|Decode String|51.93%|Medium|Golang
-|0395|Longest Substring with At Least K Repeating Characters|43.13%|Medium|Golang
-|0406|Queue Reconstruction by Height|67.79%|Medium|Golang
-|0416|Partition Equal Subset Sum|44.59%|Medium|Golang
-|0437|Path Sum III|47.75%|Medium|Golang
-|0438|Find All Anagrams in a String|44.38%|Medium|Golang
-|0448|Find All Numbers Disappeared in an Array|56.04%|Easy|Golang
-|0452|Minimum Number of Arrows to Burst Balloons|49.70%|Medium|Golang
-|0454|4Sum II|53.81%|Medium|Golang
-|0485|Max Consecutive Ones|53.44%|Easy|Golang
-|0494|Target Sum|45.93%|Medium|Golang
-|0520|Detect Capital|53.84%|Easy|Golang
-|0543|Diameter of Binary Tree|48.90%|Easy|Golang
-|0560|Subarray Sum Equals K|43.88%|Medium|Golang
-|0581|Shortest Unsorted Continuous Subarray|31.45%|Medium|Golang
-|0617|Merge Two Binary Trees|74.85%|Easy|Golang
-|0621|Task Scheduler|51.17%|Medium|Golang
-|0647|Palindromic Substrings|61.49%|Medium|Golang
-|0735|Asteroid Collision|43.07%|Medium|Golang
-|0739|Daily Temperatures|64.14%|Medium|Golang
-|0763|Partition Labels|77.70%|Medium|Golang
-|0704|Binary Search|53.80%|Easy|Golang
-|0849|Maximize Distance to Closest Person|44.33%|Medium|Golang
-|0859|Buddy Strings|29.82%|Easy|Golang
-|1636|Sort Array by Increasing Frequency|66.48%|Easy|Golang
-|1637|Widest Vertical Area Between Two Points Containing No Points|84.06%|Medium|Golang
+|0001|Two Sum|47.81%|Easy|Golang
+|0002|Add Two Numbers|37.15%|Medium|Golang
+|0003|Longest Substring Without Repeating Characters|32.38%|Medium|Golang
+|0004|Median of Two Sorted Arrays|32.94%|Hard|Golang
+|0005|Longest Palindromic Substring|31.38%|Medium|Golang
+|0007|Reverse Integer|26.18%|Medium|Golang
+|0009|Palindrome Number|51.61%|Easy|Golang
+|0011|Container With Most Water|53.20%|Medium|Golang
+|0013|Roman to Integer|57.67%|Easy|Golang
+|0014|Longest Common Prefix|38.06%|Easy|Golang
+|0015|3Sum|29.84%|Medium|Golang
+|0017|Letter Combinations of a Phone Number|51.94%|Medium|Golang
+|0019|Remove Nth Node From End of List|37.13%|Medium|Golang
+|0020|Valid Parentheses|40.50%|Easy|Golang
+|0021|Merge Two Sorted Lists|58.27%|Easy|Golang
+|0022|Generate Parentheses|68.33%|Medium|Golang
+|0023|Merge k Sorted Lists|44.98%|Hard|Golang
+|0024|Swap Nodes in Pairs|55.89%|Medium|Golang
+|0026|Remove Duplicates from Sorted Array|47.73%|Easy|Golang
+|0027|Remove Element|50.39%|Easy|Golang
+|0028|Implement strStr()|35.69%|Easy|Golang
+|0031|Next Permutation|34.75%|Medium|Golang
+|0033|Search in Rotated Sorted Array|37.00%|Medium|Golang
+|0034|Find First and Last Position of Element in Sorted Array|38.94%|Medium|Golang
+|0035|Search Insert Position|42.54%|Easy|Golang
+|0036|Valid Sudoku|53.40%|Medium|Golang
+|0039|Combination Sum|62.52%|Medium|Golang
+|0041|First Missing Positive|35.20%|Hard|Golang
+|0046|Permutations|69.88%|Medium|Golang
+|0049|Group Anagrams|62.30%|Medium|Golang
+|0053|Maximum Subarray|48.92%|Easy|Golang
+|0054|Spiral Matrix|39.29%|Medium|Golang
+|0055|Jump Game|36.78%|Medium|Golang
+|0056|Merge Intervals|43.21%|Medium|Golang
+|0058|Length of Last Word|35.01%|Easy|Golang
+|0062|Unique Paths|58.10%|Medium|Golang
+|0064|Minimum Path Sum|58.05%|Medium|Golang
+|0070|Climbing Stairs|50.04%|Easy|Golang
+|0072|Edit Distance|49.20%|Hard|Golang
+|0074|Search a 2D Matrix|40.74%|Medium|Golang
+|0075|Sort Colors|52.75%|Medium|Golang
+|0078|Subsets|68.45%|Medium|Golang
+|0079|Word Search|38.88%|Medium|Golang
+|0080|Remove Duplicates from Sorted Array II|47.79%|Medium|Golang
+|0089|Gray Code|54.20%|Medium|Golang
+|0091|Decode Ways|28.86%|Medium|Golang
+|0094|Binary Tree Inorder Traversal|68.79%|Easy|Golang
+|0096|Unique Binary Search Trees|56.36%|Medium|Golang
+|0098|Validate Binary Search Tree|29.73%|Medium|Golang
+|0100|Same Tree|54.87%|Easy|Golang
+|0101|Symmetric Tree|50.20%|Easy|Golang
+|0102|Binary Tree Level Order Traversal|59.18%|Medium|Golang
+|0103|Binary Tree Zigzag Level Order Traversal|52.09%|Medium|Golang
+|0104|Maximum Depth of Binary Tree|70.14%|Easy|Golang
+|0105|Construct Binary Tree from Preorder and Inorder Traversal|55.44%|Medium|Golang
+|0110|Balanced Binary Tree|45.83%|Easy|Golang
+|0111|Minimum Depth of Binary Tree|41.32%|Easy|Golang
+|0112|Path Sum|44.09%|Easy|Golang
+|0114|Flatten Binary Tree to Linked List|55.65%|Medium|Golang
+|0116|Populating Next Right Pointers in Each Node|53.06%|Medium|Golang
+|0118|Pascal's Triangle|60.36%|Easy|Golang
+|0119|Pascal's Triangle II|55.04%|Easy|Golang
+|0120|Triangle|48.71%|Medium|Golang
+|0121|Best Time to Buy and Sell Stock|52.93%|Easy|Golang
+|0124|Binary Tree Maximum Path Sum|36.78%|Hard|Golang
+|0125|Valid Palindrome|39.89%|Easy|Golang
+|0128|Longest Consecutive Sequence|48.00%|Medium|Golang
+|0130|Surrounded Regions|31.69%|Medium|Golang
+|0136|Single Number|67.81%|Easy|Golang
+|0139|Word Break|43.31%|Medium|Golang
+|0141|Linked List Cycle|44.30%|Easy|Golang
+|0142|Linked List Cycle II|41.85%|Medium|Golang
+|0146|LRU Cache|38.33%|Medium|Golang
+|0147|Insertion Sort List|46.16%|Medium|Golang
+|0148|Sort List|48.96%|Medium|Golang
+|0150|Evaluate Reverse Polish Notation|40.69%|Medium|Golang
+|0152|Maximum Product Subarray|33.63%|Medium|Golang
+|0155|Min Stack|48.78%|Easy|Golang
+|0160|Intersection of Two Linked Lists|47.47%|Easy|Golang
+|0162|Find Peak Element|44.98%|Medium|Golang
+|0169|Majority Element|61.44%|Easy|Golang
+|0187|Repeated DNA Sequences|43.03%|Medium|Golang
+|0189|Rotate Array|37.21%|Medium|Golang
+|0190|Reverse Bits|45.69%|Easy|Golang
+|0191|Number of 1 Bits|57.02%|Easy|Golang
+|0198|House Robber|44.96%|Medium|Golang
+|0200|Number of Islands|51.96%|Medium|Golang
+|0206|Reverse Linked List|68.25%|Easy|Golang
+|0207|Course Schedule|44.67%|Medium|Golang
+|0208|Implement Trie (Prefix Tree)|55.77%|Medium|Golang
+|0210|Course Schedule II|44.86%|Medium|Golang
+|0212|Word Search II|38.39%|Hard|Golang
+|0213|House Robber II|38.77%|Medium|Golang
+|0215|Kth Largest Element in an Array|61.35%|Medium|Golang
+|0217|Contains Duplicate|59.00%|Easy|Golang
+|0218|The Skyline Problem|37.78%|Hard|Golang
+|0219|Contains Duplicate II|40.07%|Easy|Golang
+|0221|Maximal Square|41.31%|Medium|Golang
+|0226|Invert Binary Tree|69.84%|Easy|Golang
+|0230|Kth Smallest Element in a BST|65.07%|Medium|Golang
+|0234|Palindrome Linked List|44.58%|Easy|Golang
+|0236|Lowest Common Ancestor of a Binary Tree|52.69%|Medium|Golang
+|0238|Product of Array Except Self|62.66%|Medium|Golang
+|0239|Sliding Window Maximum|45.74%|Hard|Golang
+|0240|Search a 2D Matrix II|46.87%|Medium|Golang
+|0279|Perfect Squares|51.06%|Medium|Golang
+|0283|Move Zeroes|59.60%|Easy|Golang
+|0287|Find the Duplicate Number|58.25%|Medium|Golang
+|0295|Find Median from Data Stream|49.45%|Hard|Golang
+|0297|Serialize and Deserialize Binary Tree|52.14%|Hard|Golang
+|0300|Longest Increasing Subsequence|47.33%|Medium|Golang
+|0309|Best Time to Buy and Sell Stock with Cooldown|50.67%|Medium|Golang
+|0322|Coin Change|39.01%|Medium|Golang
+|0326|Power of Three|42.86%|Easy|Golang
+|0328|Odd Even Linked List|58.31%|Medium|Golang
+|0334|Increasing Triplet Subsequence|41.10%|Medium|Golang
+|0337|House Robber III|52.44%|Medium|Golang
+|0338|Counting Bits|71.94%|Easy|Golang
+|0345|Reverse Vowels of a String|46.23%|Easy|Golang
+|0347|Top K Frequent Elements|63.71%|Medium|Golang
+|0371|Sum of Two Integers|50.70%|Medium|Golang
+|0378|Kth Smallest Element in a Sorted Matrix|58.50%|Medium|Golang
+|0387|First Unique Character in a String|55.60%|Easy|Golang
+|0394|Decode String|54.64%|Medium|Golang
+|0395|Longest Substring with At Least K Repeating Characters|44.23%|Medium|Golang
+|0406|Queue Reconstruction by Height|69.46%|Medium|Golang
+|0412|Fizz Buzz|65.34%|Easy|Golang
+|0416|Partition Equal Subset Sum|45.65%|Medium|Golang
+|0437|Path Sum III|49.61%|Medium|Golang
+|0438|Find All Anagrams in a String|46.51%|Medium|Golang
+|0448|Find All Numbers Disappeared in an Array|57.35%|Easy|Golang
+|0452|Minimum Number of Arrows to Burst Balloons|50.70%|Medium|Golang
+|0454|4Sum II|55.56%|Medium|Golang
+|0485|Max Consecutive Ones|54.38%|Easy|Golang
+|0494|Target Sum|45.24%|Medium|Golang
+|0520|Detect Capital|54.22%|Easy|Golang
+|0543|Diameter of Binary Tree|52.32%|Easy|Golang
+|0560|Subarray Sum Equals K|43.70%|Medium|Golang
+|0581|Shortest Unsorted Continuous Subarray|33.57%|Medium|Golang
+|0617|Merge Two Binary Trees|76.86%|Easy|Golang
+|0621|Task Scheduler|53.66%|Medium|Golang
+|0647|Palindromic Substrings|63.65%|Medium|Golang
+|0735|Asteroid Collision|44.12%|Medium|Golang
+|0739|Daily Temperatures|66.10%|Medium|Golang
+|0763|Partition Labels|78.40%|Medium|Golang
+|0704|Binary Search|54.75%|Easy|Golang
+|0849|Maximize Distance to Closest Person|44.90%|Medium|Golang
+|0859|Buddy Strings|28.66%|Easy|Golang
+|1035|Uncrossed Lines|57.06%|Medium|Golang
+|1636|Sort Array by Increasing Frequency|67.94%|Easy|Golang
+|1637|Widest Vertical Area Between Two Points Containing No Points|83.97%|Medium|Golang
+|1669|Merge In Between Linked Lists|74.87%|Medium|Golang
 
 |Date|total|easy|medium|hard
 |:-:|-:|-:|-:|-:|
@@ -164,4 +189,6 @@ Will support python, java, etc. in the future.
 |20/09/19|88|24|56| 8
 |20/09/19|93|26|59| 8
 |20/12/03|115|33|73| 9
-|20/12/06|127|36|81|10
+|20/12/05|127|36|81|10
+|21/10/31|150|49|91|10
+|21/10/31|152|50|92|10
