@@ -35,3 +35,35 @@ func threeSum(nums []int) [][]int {
 	}
 	return ans
 }
+
+func threeSumSorting(nums []int) [][]int {
+	sort.Ints(nums)
+	var ans [][]int
+	for i := 0; i+1 < len(nums); i++ {
+		if i > 0 && nums[i] == nums[i-1] {
+			continue
+		}
+		left := i + 1
+		right := len(nums) - 1
+		for left < right {
+			if t := nums[i] + nums[left] + nums[right]; t > 0 {
+				for left < right && nums[right-1] == nums[right] {
+					right--
+				}
+				right--
+			} else if t < 0 {
+				for left < right && nums[left] == nums[left+1] {
+					left++
+				}
+				left++
+			} else {
+				ans = append(ans, []int{nums[i], nums[left], nums[right]})
+				for left < right && nums[right] == nums[right-1] {
+					right--
+				}
+				right--
+			}
+		}
+	}
+	return ans
+}
