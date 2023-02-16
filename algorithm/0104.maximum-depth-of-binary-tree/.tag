@@ -1,1 +1,1 @@
-golang,easy,binary tree,recursion
+golang,easy,tree,dfs,bfs,binary tree
