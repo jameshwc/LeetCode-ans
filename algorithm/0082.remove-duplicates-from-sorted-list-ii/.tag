@@ -1,0 +1,1 @@
+golang,medium,worth-revisit,linked list,two-pointer
